@@ -15,21 +15,38 @@
 </head>
 
 <body>
-    <!-- <header>—Este elemento define la cabecera del cuerpo o de secciones dentro del cuerpo.  -->
-    <!-- id—Este atributo nos permite asignar un identificador único a un elemento.  -->
     <header id="titulo">
-        <!-- <h1>—Este elemento representa un título. El título se declara entre las etiquetas de 
-            apertura y cierre. HTML también incluye elementos adicionales para representar 
-            subtítulos, hasta seis niveles (<h2>, <h3>, <h4>, <h5>, y <h6>).  -->
+
         <h1>Index</h1>
     </header>
     <nav>
-        <!-- <a>—Este elemento crea un enlace. El elemento incluye el atributo href para especificar la URL del enlace. -->
         <a href="index.html">Principal</a> |
         <a href="fotos.html">Fotos</a> |
         <a href="videos.html">Videos</a> |
         <a href="contacto.html">Contacto</a>
     </nav>
+
+    <!-- <main>—Este elemento define una división que contiene el contenido principal del 
+        documento (el contenido que representa el tema central de la página). -->
+    <main>
+        <!-- <section>—Este elemento define una sección genérica. Se usa frecuentemente para separar 
+                contenido temático, o para generar columnas o bloques que ayudan a organizar el contenido 
+                principal. -->
+        <section id="noticias">
+            Artículos largos
+        </section>
+        <section id="noticiaslocales">
+            Artículos cortos
+        </section>
+
+        <section id="seccionLibros">
+            <!-- <div> se usa para separar contenido dentro de secciones. -->
+            <div class="libros">Libro: IT, Stephen King</div>
+            <div class="libros">Libro: Carrie, Stephen King</div>
+            <div class="libros">Libro: El resplandor, Stephen King</div>
+            <div class="libros">Libro: Misery, Stephen King</div>
+        </section>
+    </main>
 
 </body>
 
