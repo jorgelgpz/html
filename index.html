@@ -77,17 +77,24 @@
             <article>
                 <header>
                     <h1>Título del artículo</h1>
-                    <!-- <time>—Este elemento representa una fecha en formato legible para el usuario. 
-                        Incluye el atributo datetime para especificar un valor en formato de ordenador y el 
-                        atributo pubdate, el cual indica que el valor asignado al atributo datetime representa 
-                        la fecha de publicación.  -->
                     <time datetime="2016-10-12" pubdate>publicado 12-10-2016</time>
                 </header>
-                <!-- <mark>—Este elemento resalta texto que es relevante en las circunstancias actuales (por ejemplo, términos que busca el usuario).  -->
-                <!-- <cite>—Este elemento representa el autor o título de una obra, como un libro, una  película, etc. -->
                 <p>La muerte es una quimera: porque mientras yo <mark>existo</mark>,
                     no existe la muerte;<br>y cuando existe la muerte, ya no existo
                     yo.<br><cite>Epicuro de Samos</cite></p>
+            </article>
+
+            <article>
+                <!-- <code>—Este elemento representa código de programación. Se usa en conjunto con el 
+                    elemento <pre> para presentar código de programación en el formato original.  -->
+                <pre>
+                <code> 
+                    function cambiarColor() { 
+                        document.body.style.backgroundColor = "#0000FF"; 
+                    } 
+                    document.addEventListener("click", cambiarColor); 
+                </code> 
+                </pre>
             </article>
 
         </section>
