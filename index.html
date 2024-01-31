@@ -108,17 +108,21 @@
 
         <address>Alajuela, Costa Rica</address>
 
-        <!-- 
-        El elemento <a> puede incluir el atributo target para especificar el destino en el cual el documento será abierto.
-        El valor _self se asigna por defecto, lo que significa que el documento se abre en la misma ubicación que el documento actual
-        El valor _blank el documento se abre en una nueva ventana. -->
-
-        <!-- <small>—Este elemento representa letra pequeña, como declaraciones legales, descargos, etc. -->
-
         <small>&copy; Derechos Reservados <a href="https://www.w3schools.com/html/default.asp"
                 target="_blank">w3schools</a></small>
-
-
+        <br>
+        <!-- HTML ofrece las palabras clave mailto y tel para especificar una cuenta de correo o un número de teléfono. -->
+        <small>Correo <a href="mailto:ejemplo@gmail.com">contactar por correo</a></small>
+        <br>
+        <small>Teléfono <a href="tel:11112233">11112233</a></small>
+        <br>
+        <!-- El atributo download se encuentra presente dentro de un elemento <a>, el
+                    archivo especificado por el atributo href se descarga y almacena en el disco duro del usuario.
+                    Por otro lado, el archivo que indica el atributo ping no se descarga, sino que se ejecuta en el
+                    servidor. -->
+        <a href="../Leccion1/imagenes/HTML.png" target="_blank" ping="http://www.ejemplo.com/control.php" download>Clic
+            aquí
+            para descargar</a>
     </footer>
 
 </body>
